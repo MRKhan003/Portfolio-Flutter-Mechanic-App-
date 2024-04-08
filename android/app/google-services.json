@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "479779854595",
+    "project_id": "mechanic-online-8b01b",
+    "storage_bucket": "mechanic-online-8b01b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479779854595:android:91f5b9e81495639c717136",
+        "android_client_info": {
+          "package_name": "com.example.projects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfm3f8uQNtATrg0bPaMpkj3jiOysN6NZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
