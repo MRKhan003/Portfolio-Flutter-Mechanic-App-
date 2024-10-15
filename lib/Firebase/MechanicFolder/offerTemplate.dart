@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class offerTemplate extends StatefulWidget {
   final String senderName;
@@ -139,16 +140,12 @@ class _offerTemplateState extends State<offerTemplate> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
-                    style: ButtonStyle(
-                      backgroundColor: MaterialStatePropertyAll(Colors.green),
-                    ),
-                    onPressed: () {},
+                    onPressed: () {
+                      print("None");
+                    },
                     child: Text("Accept"),
                   ),
                   ElevatedButton(
-                    style: ButtonStyle(
-                      backgroundColor: MaterialStatePropertyAll(Colors.red),
-                    ),
                     onPressed: () {
                       removeCard(widget.cardList, widget.cIndex);
                     },

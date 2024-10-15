@@ -1,10 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:projects/Firebase/MechanicFolder/getOffer.dart';
 import 'package:projects/Firebase/userController/userAuth.dart';
-import 'package:projects/Root/rootFunctionality.dart';
-import 'package:projects/Screens/User_Screens/homeScreen.dart';
-import 'package:projects/Views/Authentication/forgotPass.dart';
 import 'package:projects/Views/Authentication/mechanicSignin.dart';
 import 'package:projects/firebase_options.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';

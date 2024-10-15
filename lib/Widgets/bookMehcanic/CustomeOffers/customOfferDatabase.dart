@@ -18,49 +18,24 @@ class customOfferDatabase {
       AchievementView(
           title: "Congrats!",
           subTitle: "Custom offer created",
-          //content: Widget()
-          //onTab: _onTabAchievement,
-          //icon: Icon(Icons.insert_emoticon, color: Colors.white,),
-          //typeAnimationContent: AnimationTypeAchievement.fadeSlideToUp,
-          //borderRadius: 5.0,
           color: Colors.green,
-          //textStyleTitle: TextStyle(),
-          //textStyleSubTitle: TextStyle(),
-          //alignment: Alignment.topCenter,
           duration: Duration(seconds: 5),
-          //isCircle: false,
           listener: (status) {
             print(status);
-            //AchievementState.opening
-            //AchievementState.open
-            //AchievementState.closing
-            //AchievementState.closed
           }).show(context);
       return true;
     } catch (e) {
       AchievementView(
           title: "Error!",
           subTitle: "$e",
-          //content: Widget()
-          //onTab: _onTabAchievement,
           icon: Icon(
             Icons.emoji_emotions_rounded,
             color: Colors.white,
           ),
-          //typeAnimationContent: AnimationTypeAchievement.fadeSlideToUp,
-          //borderRadius: 5.0,
           color: Colors.red,
-          //textStyleTitle: TextStyle(),
-          //textStyleSubTitle: TextStyle(),
-          //alignment: Alignment.topCenter,
           duration: Duration(seconds: 5),
-          //isCircle: false,
           listener: (status) {
             print("$e");
-            //AchievementState.opening
-            //AchievementState.open
-            //AchievementState.closing
-            //AchievementState.closed
           }).show(context);
       return false;
     }
